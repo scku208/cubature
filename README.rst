@@ -41,8 +41,7 @@ If you are changing the ``_cubature.pyx`` file, you must have Cython
 installed in order to create a new ``_cubature.c`` file. The ``setup.py``
 script will automatically try to use the Cython compiler first.
 
-If you want to build only a local ``_cubature.pyd`` file, go to
-``./cubature`` and type:
+If you want to build only a local ``_cubature.pyd`` (or ``_cubature.so``) extension file, type:
 
 .. code::
    
